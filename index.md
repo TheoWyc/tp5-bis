@@ -1,28 +1,40 @@
 ## TP1
 # 1. Configuration de GIT (mettre la liste après la config mais avant les get)
 >git config –list
+-
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+..._
 
-
->git config –global user.name “Théo Wychowski”
->git config –global user.email wychowski.theo@gmail.com
->git config --global core.editor vsCode
+**git config –global user.name “Théo Wychowski”**
+**git config –global user.email wychowski.theo@gmail.com**
+**git config --global core.editor vsCode**
 
 >git config user.name
+Théo Wychowski
 >git config user.email
+wychowski.theo@gmail.com
 >git config core.editor
+vsCode
 
 
 # 2. Création d’un dépôt GIT sur une machine locale
 
-J’ai été dans un répertoire que j’ai créé pour la SAE et  j’ai fait les commandes :
+J’ai été dans un répertoire que j’ai créé pour la SAE et j’ai fait les commandes :
 >mkdir courseGIT
 >cd courseGIT
 >mkdir tp1
 
-Et dans le répertoire tp1, la commande >pwd me donne ce chemin :
+Et dans le répertoire tp1, la commande **pwd** me donne ce chemin :
 
+>
 
- Dans ce répertoire j’ai fait la commande >git init
+Dans ce répertoire j’ai fait la commande 
+>git init
 
 
 Cela à créé un nouveau répertoire caché .git qu’on peut voir avec la commande >ls -a
@@ -140,10 +152,10 @@ Dans ce fichier, on met tous les fichiers que git doit ignore, ici on met :
 *.class
 
 (puis pour l’exercice :)
-# Compiled class file
+Compiled class file
 *.class
 
-# Package Files 
+Package Files 
 *.jar
 *.war
 *.nar
