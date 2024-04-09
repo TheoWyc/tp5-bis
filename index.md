@@ -1,18 +1,23 @@
 ## TP1
 # 1. Configuration de GIT (mettre la liste après la config mais avant les get)
 >git config –list
--
+
 diff.astextplain.textconv=astextplain
+<br>
 filter.lfs.clean=git-lfs clean -- %f
+<br>
 filter.lfs.smudge=git-lfs smudge -- %f
+<br>
 filter.lfs.process=git-lfs filter-process
+<br>
 filter.lfs.required=true
 http.sslbackend=schannel
-..._
+<br>
+...
 
-**git config –global user.name “Théo Wychowski”**
-**git config –global user.email wychowski.theo@gmail.com**
-**git config --global core.editor vsCode**
+>git config –global user.name “Théo Wychowski”
+>git config –global user.email wychowski.theo@gmail.com
+>git config --global core.editor vsCode
 
 >git config user.name
 Théo Wychowski
@@ -29,18 +34,20 @@ J’ai été dans un répertoire que j’ai créé pour la SAE et j’ai fait le
 >cd courseGIT
 >mkdir tp1
 
-Et dans le répertoire tp1, la commande **pwd** me donne ce chemin :
+Et dans le répertoire tp1, la commande [color=#fa9a00]pwd[color=#fa9a00] me donne ce chemin :
 
->
+>/c/Users/wtwhy/OneDrive/Bureau/ds/IUT/TP/s2/sae2.03_Installation_de_services_résseau/courseGIT/tp1
 
 Dans ce répertoire j’ai fait la commande 
 >git init
 
 
-Cela à créé un nouveau répertoire caché .git qu’on peut voir avec la commande >ls -a
+Cela à créé un nouveau répertoire caché .git qu’on peut voir avec la commande 
+>ls -a
+>./ ../ .git/
 
 
-La commande >git status affiche
+La commande **git** status affiche
 
 Car on n’a pas encore changé quelque chose dans le répertoire tp1.
 
