@@ -3,20 +3,19 @@
 >git config –list
 
 diff.astextplain.textconv=astextplain
-<br>
 filter.lfs.clean=git-lfs clean -- %f
-<br>
 filter.lfs.smudge=git-lfs smudge -- %f
-<br>
 filter.lfs.process=git-lfs filter-process
-<br>
 filter.lfs.required=true
 http.sslbackend=schannel
-<br>
 ...
 
 >git config –global user.name “Théo Wychowski”
+<br>
+
 >git config –global user.email wychowski.theo@gmail.com
+<br>
+
 >git config --global core.editor vsCode
 
 >git config user.name
@@ -34,7 +33,7 @@ J’ai été dans un répertoire que j’ai créé pour la SAE et j’ai fait le
 >cd courseGIT
 >mkdir tp1
 
-Et dans le répertoire tp1, la commande [color=#fa9a00]pwd[color=#fa9a00] me donne ce chemin :
+Et dans le répertoire tp1, la commande <span style="color: #26B260">pwd</span> me donne ce chemin :
 
 >/c/Users/wtwhy/OneDrive/Bureau/ds/IUT/TP/s2/sae2.03_Installation_de_services_résseau/courseGIT/tp1
 
