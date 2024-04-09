@@ -19,24 +19,24 @@ http.sslbackend=schannel
 
 <span style="color: #267dbc">git config –global user.name “Théo Wychowski”</span>
 <br>
-
 <span style="color: #267dbc">git config –global user.email wychowski.theo@gmail.com</span>
 <br>
-
 <span style="color: #267dbc">git config --global core.editor vsCode</span>
 
+
 <span style="color: #267dbc">git config user.name</span>
+
 >Théo Wychowski
 
-<br>
 
 <span style="color: #267dbc">git config user.email</span>
+
 >wychowski.theo@gmail.com
 
-<br>
 
 <span style="color: #267dbc">git config core.editor</span>
-vsCode
+
+>vsCode
 
 
 # 2. Création d’un dépôt GIT sur une machine locale
