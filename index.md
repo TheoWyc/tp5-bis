@@ -1,7 +1,7 @@
 ## TP1
 # 1. Configuration de GIT (mettre la liste après la config mais avant les get)
 
-<span style="color: #0036fa">git config –list</span>
+<span style="color: #267dbc">git config –list</span>
 
 diff.astextplain.textconv=astextplain
 <br>
@@ -17,19 +17,25 @@ http.sslbackend=schannel
 <br>
 ...
 
-<span style="color: #0036fa">git config –global user.name “Théo Wychowski”
+<span style="color: #267dbc">git config –global user.name “Théo Wychowski”</span>
 <br>
 
-git config –global user.email wychowski.theo@gmail.com</span>
+<span style="color: #267dbc">git config –global user.email wychowski.theo@gmail.com</span>
 <br>
 
-<span style="color: #0036fa">git config --global core.editor vsCode</span>
+<span style="color: #267dbc">git config --global core.editor vsCode</span>
 
-<span style="color: #0036fa">git config user.name</span>
+<span style="color: #267dbc">git config user.name</span>
 >Théo Wychowski
-<span style="color: #0036fa">git config user.email</span>
+
+<br>
+
+<span style="color: #267dbc">git config user.email</span>
 >wychowski.theo@gmail.com
-<span style="color: #0036fa">git config core.editor</span>
+
+<br>
+
+<span style="color: #267dbc">git config core.editor</span>
 vsCode
 
 
@@ -40,7 +46,7 @@ J’ai été dans un répertoire que j’ai créé pour la SAE et j’ai fait le
 >cd courseGIT
 >mkdir tp1
 
-Et dans le répertoire tp1, la commande <span style="color: #0036fa">pwd</span> me donne ce chemin :
+Et dans le répertoire tp1, la commande <span style="color: #267dbc">pwd</span> me donne ce chemin :
 
 >/c/Users/wtwhy/OneDrive/Bureau/ds/IUT/TP/s2/sae2.03_Installation_de_services_résseau/courseGIT/tp1
 
